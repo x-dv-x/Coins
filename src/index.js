@@ -9,8 +9,6 @@ config ({
     path: "../.env"
 })
 
-
-console.log(process.env.RAPID_API_KEY)
  
 const container = document.getElementById('root');
 const root = createRoot(container); 
